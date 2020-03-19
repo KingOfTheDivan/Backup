@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using Newtonsoft.Json;
 
-namespace Backup.Settings
+namespace BackupFile.Settings
 {
-    public class SettingsLoader : ISettingsLoader
+    public class JsonSettingsLoader : ISettingsLoader
     {
         /// <summary>
         /// Загружает данные из файла настроек, десериализуя его в экземпляр класса Settings

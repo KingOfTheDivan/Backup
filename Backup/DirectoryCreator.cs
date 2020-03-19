@@ -5,11 +5,10 @@ namespace Backup
 {
     public static class DirectoryCreator
     {
-        private const string DateFormat = "dd.MM.yyyy hh-mm";
+        private const string DateFormat = "dd.MM.yyyy HH-mm";
         
         private static string FolderName =>
             DateTime.Now.ToString(DateFormat);
-
         private static string GetFullPath(string targetDirectory) =>
             Path.Combine(targetDirectory, FolderName);
 
