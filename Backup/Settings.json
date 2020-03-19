@@ -1,10 +1,10 @@
 ﻿{
   "SourceDirectories": [
-    "TestDirectory1",
-    "TestDirectory2"
+    "D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory1",
+    "D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory2"
   ],
   "SourceFiles": [
-    "file.jpg"
+    "D:\\ITMO\\Разработка ПО\\lab1\\dog.jpg"
   ],
-  "TargetDirectory": "Temp"
+  "TargetDirectory": "D:\\ITMO\\Разработка ПО\\lab1\\Temp"
 }
